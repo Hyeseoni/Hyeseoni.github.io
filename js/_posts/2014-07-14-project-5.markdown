@@ -1,0 +1,14 @@
+---
+title: Wireless Bra
+layout: default
+modal-id: 5
+date: 2014-07-14
+img: WirelessBra.png
+thumbnail: WirelessBra_thumb.jpg
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: A
+description: 유니클로 와이어리스 브라 상세페이지
+
+---

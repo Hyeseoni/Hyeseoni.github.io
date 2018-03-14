@@ -1,0 +1,14 @@
+---
+title: Honeyce
+layout: default
+modal-id: 6
+date: 2014-07-13
+img: Honeyce.jpg
+thumbnail: Honeyce_thumb.jpg
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: A
+description: 허니체 헤어마스트 상세페이지
+
+---

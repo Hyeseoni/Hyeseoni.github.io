@@ -1,0 +1,13 @@
+---
+title: Lush
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: lush.jpg
+thumbnail: lush_thumb.jpg
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: B
+description: 러쉬 고체치약 상세페이지
+---

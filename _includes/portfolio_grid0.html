@@ -1,0 +1,57 @@
+<!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="w3-section w3-bottombar w3-padding-16">
+              <span class="w3-margin-right">Filter:</span>
+              <button class="w3-button w3-black">ALL</button>
+              <a class="w3-button w3-white" href="#page-scroll" class="page-scroll" ><i class="fa fa-diamond w3-margin-right"></i>상세페이지
+                {% assign posts = site.posts | where : 'categories', 'B' %}
+              </a>
+              <a class="w3-button w3-white w3-hide-small" href="#portfolioModal1" class="portfolio-link" data-toggle="modal"><i class="fa fa-photo w3-margin-right"></i>배너</a>
+              <a class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>이벤트</a><br/>
+            </div>
+            <br/>
+            <div class="row">
+
+
+
+
+            {% for post in site.posts %}
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>{{ post.title }}</h4>
+                        <p class="text-muted">{{ post.subtitle }}</p>
+              
+                    </div>
+                </div>
+
+            {% endfor %}
+            <!-- Pagination -->
+            <div class="w3-center w3-padding-32">
+              <div class="w3-bar">
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+                <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+              </div>
+            </div>
+            </div>
+        </div>
+    </section>

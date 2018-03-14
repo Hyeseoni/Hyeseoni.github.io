@@ -1,0 +1,14 @@
+---
+title: Bootea
+layout: default
+modal-id: 3
+date: 2014-07-16
+img: bootea.jpg
+thumbnail: bootea_thumb.jpg
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: A
+description: 부티 상세페이지
+
+---

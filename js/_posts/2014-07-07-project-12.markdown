@@ -1,0 +1,14 @@
+---
+title: KaKao
+layout: default
+modal-id: 12
+date: 2014-07-09
+img: kakao.jpg
+thumbnail: kakao_thumb.jpg
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: A
+description: 카카오톡 개설 이벤트 전단지 작업
+
+---

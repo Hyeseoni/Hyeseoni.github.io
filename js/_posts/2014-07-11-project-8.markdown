@@ -1,0 +1,14 @@
+---
+title: Starbucks Teavana
+layout: default
+modal-id: 8
+date: 2014-07-11
+img: teavana.jpg
+thumbnail: teavana_thumb.jpg
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: A
+description: 스타벅스 티바나 상세페이지
+
+---

@@ -1,0 +1,14 @@
+---
+title: Inissia
+layout: default
+modal-id: 9
+date: 2014-07-10
+img: Inissia.jpg
+thumbnail: inissia_thumb.jpg
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: A
+description: 네소프레소 이니시아 상세페이지
+
+---

@@ -1,0 +1,14 @@
+---
+title: Air Cleaner
+layout: default
+modal-id: 2
+date: 2014-07-17
+img: AirCleaner.jpg
+thumbnail: AirCleaner_thumb.jpg
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: B
+description: 무인양품 공기청정기 상세페이지
+
+---

@@ -1,0 +1,14 @@
+---
+title: Lucky Week
+layout: default
+modal-id: 11
+date: 2014-07-09
+img: Lucky.jpg
+thumbnail: Lucky_thumb.jpg
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: A
+description: 홈페이지 오픈 이벤트 전단지 작업
+
+---
